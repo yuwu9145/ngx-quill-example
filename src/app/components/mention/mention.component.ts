@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms'
 })
 export class MentionComponent {
   @ViewChild(QuillEditorComponent, { static: true }) editor: QuillEditorComponent | undefined
-  content = ''
+  content = '<div><span class="mention" data-index="0" data-denotation-char="@" data-id="1" data-value="Fredrik Sundqvist">﻿<span contenteditable="false"><span class="ql-mention-denotation-char">@</span><span class="ql-mention-value">Fredrik Sundqvist</span></span>﻿</span>&nbsp;</div>'
   matContent = ''
 
   modules = {
